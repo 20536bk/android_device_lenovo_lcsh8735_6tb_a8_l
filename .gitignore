@@ -1,0 +1,8 @@
+*.img
+*.zip
+*.log
+*.bak
+*.tmp
+*~
+.DS_Store
+*.before-*
