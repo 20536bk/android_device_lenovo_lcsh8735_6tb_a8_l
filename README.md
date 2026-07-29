@@ -35,38 +35,6 @@ Unofficial TWRP 3.7.0_9 device tree for Lenovo TAB2 501LV.
 - Stock recovery restoration protection
 - Custom TWRP version suffix
 
-
-## Image size
-
-The recovery partition size is exactly 16,777,216 bytes.
-
-Check the image size before flashing:
-
-    IMG=out/target/product/lcsh8735_6tb_a8_l/recovery.img
-    stat -c '%n %s bytes' "$IMG"
-
-Do not flash an image larger than 16 MiB.
-
-## Flashing
-
-Flash with fastboot:
-
-    fastboot flash recovery recovery.img
-
-Boot directly into recovery after flashing. Android may restore the
-stock recovery if the recovery restoration files are still enabled.
-
-## Stock recovery restoration
-
-The device tree includes a script that attempts to disable these files:
-
-    /system/recovery-from-boot.p
-    /system/bin/install-recovery.sh
-    /system/etc/install-recovery.sh
-
-This operation modifies the system partition and may affect official
-OTA update verification.
-
 ## Source layout
 
 This repository contains device-specific files only.
