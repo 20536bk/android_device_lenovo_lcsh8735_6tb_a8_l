@@ -64,3 +64,6 @@ TW_DEFAULT_LANGUAGE := zh_CN
 
 # MT6735 CPU temperature
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone7/temp"
+
+# Custom recovery version suffix
+TW_DEVICE_VERSION := XiaoBaiCai
