@@ -35,17 +35,6 @@ Unofficial TWRP 3.7.0_9 device tree for Lenovo TAB2 501LV.
 - Stock recovery restoration protection
 - Custom TWRP version suffix
 
-## Build target
-
-Run these commands from the TWRP source root:
-
-    source build/envsetup.sh
-    lunch omni_lcsh8735_6tb_a8_l-eng
-    make -j4 recoveryimage
-
-The output image is:
-
-    out/target/product/lcsh8735_6tb_a8_l/recovery.img
 
 ## Image size
 
