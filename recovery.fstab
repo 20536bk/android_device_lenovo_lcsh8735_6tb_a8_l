@@ -9,7 +9,7 @@
 /proinfo        emmc    /dev/block/platform/mtk-msdc.0/by-name/proinfo    flags=display="Proinfo";backup=1;flashimg=1
 /protect_f      ext4    /dev/block/platform/mtk-msdc.0/by-name/protect1   flags=backup=1;subpartitionof=/proinfo
 /protect_s      ext4    /dev/block/platform/mtk-msdc.0/by-name/protect2   flags=backup=1;subpartitionof=/proinfo
-/logo           emmc    /dev/block/platform/mtk-msdc.0/by-name/system       flags=display="System";backup=1;flashimg=1
+/system           emmc    /dev/block/platform/mtk-msdc.0/by-name/system       flags=display="System";backup=1;flashimg=1
 
 /external_sd    auto    /dev/block/mmcblk1p1                              /dev/block/mmcblk1 flags=display="External microSD";storage;wipeingui;removable;backup=0
 /usbotg         auto    /dev/block/sda1                                   /dev/block/sda     flags=display="USB-OTG";storage;wipeingui;removable;backup=0

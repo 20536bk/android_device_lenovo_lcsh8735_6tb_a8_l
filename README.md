@@ -1,6 +1,6 @@
 # TWRP for Lenovo TAB2 501LV
 
-Unofficial TWRP 2.8.7.0 device tree for Lenovo TAB2 501LV.
+Unofficial TWRP 3.7.0_9 device tree for Lenovo TAB2 501LV.
 
 ## Device information
 
